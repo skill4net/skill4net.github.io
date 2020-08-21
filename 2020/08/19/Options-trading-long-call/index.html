@@ -14,18 +14,19 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"skill4net.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"skill4net.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Options trading - Long Call">
+  <meta name="description" content="Options trading - Long Call, how to profit or lose, charting">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Options trading - Long Call">
 <meta property="og:url" content="http://skill4net.github.io/2020/08/19/Options-trading-long-call/index.html">
-<meta property="og:site_name" content="Skill4Net">
-<meta property="og:description" content="Options trading - Long Call">
+<meta property="og:site_name" content="Skill 4 Net">
+<meta property="og:description" content="Options trading - Long Call, how to profit or lose, charting">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://skill4net.github.io/files4img/BAC-candle-01.png">
 <meta property="og:image" content="http://skill4net.github.io/files4img/BAC-LongCall-02.png">
@@ -33,8 +34,8 @@
 <meta property="og:image" content="http://skill4net.github.io/files4img/Barchart-optionchains-03.png">
 <meta property="og:image" content="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg">
 <meta property="article:published_time" content="2020-08-18T23:03:41.000Z">
-<meta property="article:modified_time" content="2020-08-21T09:42:35.819Z">
-<meta property="article:author" content="Skill4net">
+<meta property="article:modified_time" content="2020-08-21T11:42:14.897Z">
+<meta property="article:author" content="Skill4Net">
 <meta property="article:tag" content="Options - Long (Buy) - Call">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://skill4net.github.io/files4img/BAC-candle-01.png">
@@ -52,7 +53,7 @@
   };
 </script>
 
-  <title>Options trading - Long Call | Skill4Net</title>
+  <title>Options trading - Long Call | Skill 4 Net</title>
   
 
 
@@ -103,7 +104,7 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Skill4Net</h1>
+      <h1 class="site-title">Skill 4 Net</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
       <p class="site-subtitle" itemprop="description">Love technologies, learning and teaching. A long journey begins with a little step.</p>
@@ -123,6 +124,11 @@
         <li class="menu-item menu-item-home">
 
     <a href="/" rel="section"><i class="home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="user fa-fw"></i>About</a>
 
   </li>
         <li class="menu-item menu-item-tags">
@@ -172,12 +178,12 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Skill4net">
+      <meta itemprop="name" content="Skill4Net">
       <meta itemprop="description" content="IT technologies, financial technology and personal investment">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Skill4Net">
+      <meta itemprop="name" content="Skill 4 Net">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -198,7 +204,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-08-21 21:42:35" itemprop="dateModified" datetime="2020-08-21T21:42:35+12:00">2020-08-21</time>
+                <time title="Modified: 2020-08-21 23:42:14" itemprop="dateModified" datetime="2020-08-21T23:42:14+12:00">2020-08-21</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -214,12 +220,12 @@
                 </span>
                   , 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Options-trading/FinTech/Personal-Investment/" itemprop="url" rel="index"><span itemprop="name">Personal Investment</span></a>
+                  <a href="/categories/Options-trading/FinTech/Personal-Investment/" itemprop="url" rel="index"><span itemprop="name">Personal Investment]</span></a>
                 </span>
             </span>
 
           
-            <div class="post-description">Options trading - Long Call</div>
+            <div class="post-description">Options trading - Long Call, how to profit or lose, charting</div>
 
         </div>
       </header>
@@ -565,7 +571,7 @@ Plotly.purge('myplChart');
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">Skill4net</p>
+  <p class="site-author-name" itemprop="name">Skill4Net</p>
   <div class="site-description" itemprop="description">IT technologies, financial technology and personal investment</div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -617,7 +623,7 @@ Plotly.purge('myplChart');
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Skill4net</span>
+  <span class="author" itemprop="copyrightHolder">Skill4Net</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
@@ -637,6 +643,8 @@ Plotly.purge('myplChart');
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 

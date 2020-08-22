@@ -178,8 +178,8 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1em;
-  line-height: 2;
+  font-size: 16px;
+  line-height: 1.5;
 }
 @media (max-width: 991px) {
   body {
@@ -930,7 +930,7 @@ pre .javascript .function {
 }
 @media (min-width: 1600px) {
   .main-inner {
-    width: 73%;
+    width: 87%;
   }
 }
 @media (max-width: 767px) {
@@ -952,7 +952,7 @@ pre .javascript .function {
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 73%;
+    width: 87%;
   }
 }
 .site-brand-container {
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8b5e70;
+  background: #2a78d2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1391,7 +1391,7 @@ pre .javascript .function {
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 73%;
+    width: 87%;
   }
 }
 .languages {
@@ -2141,6 +2141,14 @@ ul.breadcrumb li + li:last-child {
 .tag-cloud a:hover {
   color: var(--link-hover-color) !important;
 }
+.gt-header a,
+.gt-comments a,
+.gt-popup a {
+  border-bottom: none;
+}
+.gt-container .gt-popup .gt-action.is--active::before {
+  top: 0.7em;
+}
 .header {
   margin: 0 auto;
   position: relative;
@@ -2153,7 +2161,7 @@ ul.breadcrumb li + li:last-child {
 }
 @media (min-width: 1600px) {
   .header {
-    width: 73%;
+    width: 87%;
   }
 }
 @media (max-width: 991px) {
